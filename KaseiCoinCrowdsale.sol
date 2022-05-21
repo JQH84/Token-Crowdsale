@@ -53,8 +53,8 @@ contract KaseiCoinCrowdsaleDeployer {
     constructor(
         string memory name,
         string memory symbol,
-        address payable wallet ,
-        uint goal // adding the goal 
+        address payable wallet,
+        uint256 goal // adding the goal
     ) public {
         // Create a new instance of the KaseiCoin contract.
         KaseiCoin token = new KaseiCoin(name, symbol, 0);
@@ -66,10 +66,10 @@ contract KaseiCoinCrowdsaleDeployer {
         KaseiCoinCrowdsale KAICrowdsale = new KaseiCoinCrowdsale(
             1,
             wallet,
-            token ,
+            token,
             goal,
             now,
-            now + 24 weeks
+            now + 5 minutes
         );
 
         // Aassign the `KaseiCoinCrowdsale` contract’s address to the `kasei_crowdsale_address` variable.
