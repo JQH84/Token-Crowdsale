@@ -8,7 +8,7 @@ This is a simple token-crowdsale contract developed using solidity.
 - Open the [Remix IDE](https://remix.ethereum.org/)
 - Open the KaseiCoin.sol and KaseiCoinCrowdsale.sol files , inspect them to see the code. 
 - Compile both the files using compile section  
-- Use a Ganash One-Click blockchain tool to simulate the use of the contract or any Etheruem testnet of your choice.
+- Use a [Ganash](https://github.com/trufflesuite/ganache-ui/releases) One-Click blockchain tool to simulate the use of the contract or any Etheruem testnet of your choice.
 
 ### Compile and Deploy 
 - After you compile you will notice three contracts in the deploy section.
