@@ -21,4 +21,4 @@ This is a simple token-crowdsale contract developed using solidity.
 - you can also use the finalize function to end the crowdsale and then the tokens can be transfer.
 
 ## Demo of how the contract works
-![Demo](Results/Contract_Demo.gif)
+![[](/Results/Contract_Demo.gif)](Results/Contract_Demo.gif)
